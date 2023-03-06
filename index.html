@@ -8,15 +8,11 @@
   <title>Frontend Mentor | Interactive rating component</title>
   <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <main>
+
     <div id="container">
       <img src="images/icon-star.svg" alt="icon-star">
       <h1>How did we do?</h1>
@@ -32,25 +28,31 @@
         <button class="rating-button"> 4 </button>
         <button class="rating-button"> 5 </button>
       </div>
-      <button type="submit" id="submit-btn"> SUBMIT </button>
+      <button type="submit" id="submit-btn" class="btn"> SUBMIT </button>
+    </div>
+
+    <div id="thankyou-state" class="hidden">
+
+      <img src="./images/illustration-thank-you.svg" alt="thank you image" class="thankyou-logo"/>
+
+      <button type="button" id="rate-given" class="rate-given">4</button>
+
+      <h2>Thank you!</h2>
+
+      <p>We appreciate you taking your time to give a rating.
+        If you ever need more support, don't hesitate to get in touch!</p>
+      
+      <button type="submit" id="rating-btn" class="btn"> Rate Again </button>
+
+
     </div>
   </main>
-
-
-<!--
-  You selected Add rating here out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-
--->
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://github.com/Lornzyy">Lornzyy</a>.
+  </footer>
+
+  <script src="./index.js"></script>
 </body>
 </html>
