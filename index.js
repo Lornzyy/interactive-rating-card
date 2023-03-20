@@ -27,3 +27,4 @@ for (let i = 0; i < rates.length; i++){
         ratingEl.innerHTML = `You have selected` + rates[i].innerHTML + `out of 5`
     })
 }
+

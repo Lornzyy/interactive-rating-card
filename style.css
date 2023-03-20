@@ -91,6 +91,7 @@ p {
 }
 
 .attribution {
+    margin-top: 2.2rem;
     font-size: .8rem;
     text-align: center;
 }
@@ -100,7 +101,7 @@ p {
 
 #thankyou-state {
     max-width: 22.5rem;
-    outline: 2px red solid;
+    outline: 2px var(--medium-grey) solid;
     margin: 7rem auto 0 auto;
     padding: 1rem;
     line-height: 2rem;
